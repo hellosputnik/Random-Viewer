@@ -78,4 +78,3 @@ def main():
 if __name__ == '__main__':
     main();
 
-# Last updated: October 5, 2013
