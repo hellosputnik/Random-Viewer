@@ -62,14 +62,14 @@ def main():
   viewers = download(username)
   
   # check result of download
-  if list:
+  if viewers:
     # display viewer count
     print "\nViewer count: %d\n" % len(viewers)
     # output each viewer
     for viewer in viewers:
       print viewer
     # display the lucky viewer
-    display(random.choice(viewer))
+    display(random.choice(viewers))
   else:
     # exit on error
     return
